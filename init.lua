@@ -1,3 +1,5 @@
+assert(pcall(require, "https"), "Must have https module installed or have love version at least 12")
+
 ---@diagnostic disable: inject-field
 local t_requests = {}
 local main_pool
