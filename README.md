@@ -1,6 +1,6 @@
 # Threaded Requests
  
-This is a wrapper library for https that handles the requests using threads. That way, even long connections will tank the performance. Moreover, it allows for a multiple connections at the same time.
+This is a wrapper library for https that handles the requests using threads. That way, even long connections will not tank the performance. Moreover, it allows for a multiple connections at the same time.
 
 ## How to start
 
